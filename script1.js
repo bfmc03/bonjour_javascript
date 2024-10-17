@@ -1,10 +1,10 @@
 function sayHello(naim) {  // je déclare ma fonction sayHello en lui ajoutant un argument main
 let message = "Bonjour "+ naim // Ke concataine mon argument a ma varible 
-//console.log(message)
-document.querySelector('h1').innerText = message;
+console.log(message)
+//document.querySelector('h1').innerText = message;
 }
 
-//ssayHello()  // j'apelle ma fonction 
+sayHello()  // j'apelle ma fonction 
 
 let firstname = "beyonce !" // je déclare une autre variable qui devient un paramètre
 
